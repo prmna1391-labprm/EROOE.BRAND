@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تماس با ما | EROOE</title>
+<meta name="description" content="با EROOE در ارتباط باشید؛ پیش‌ثبت‌نام نسخه آزمایشی، پیشنهاد همکاری یا ارسال بازخورد.">
+<meta name="theme-color" content="#070b14">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https:; form-action 'self'; base-uri 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:site_name" content="EROOE">
+<meta property="og:title" content="تماس با ما | EROOE">
+<meta property="og:description" content="با EROOE در ارتباط باشید؛ پیش‌ثبت‌نام نسخه آزمایشی، پیشنهاد همکاری یا ارسال بازخورد.">
+<link rel="canonical" href="https://www.erooe.example/contact.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600&family=Vazirmatn:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EROOE","description":"توسعه‌ی اپلیکیشن‌های آموزشی تعاملی و هوشمند برای دوره‌ی متوسطه‌ی اول."}</script>
+<script src="assets/js/init.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">پرش به محتوای اصلی</a>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="EROOE — صفحه اصلی">E<span>R</span><span class="oo">OO</span>E</a>
+    <nav class="nav" aria-label="منوی اصلی"><a href="index.html">خانه</a><a href="about.html">درباره ما</a><a href="services.html">خدمات</a><a href="projects.html">پروژه‌ها</a><a href="contact.html" aria-current="page">تماس با ما</a></nav>
+    <a class="btn btn--primary btn--sm header-cta" href="contact.html?subject=beta">پیش‌ثبت‌نام نسخه آزمایشی</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="باز کردن منو">
+      <svg class="icon icon-open" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="icon icon-close" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobile-panel">
+  <nav aria-label="منوی موبایل"><a class="m-link" href="index.html"><span>خانه</span><span class="mono muted small">Home</span></a><a class="m-link" href="about.html"><span>درباره ما</span><span class="mono muted small">About Us</span></a><a class="m-link" href="services.html"><span>خدمات</span><span class="mono muted small">Services</span></a><a class="m-link" href="projects.html"><span>پروژه‌ها</span><span class="mono muted small">Projects</span></a><a class="m-link" href="contact.html" aria-current="page"><span>تماس با ما</span><span class="mono muted small">Contact</span></a></nav>
+  <a class="btn btn--primary" href="contact.html?subject=beta">پیش‌ثبت‌نام نسخه آزمایشی</a>
+</div>
+<main id="main">
+
+<section class="hero page-hero">
+  <div class="container"><div class="hero-copy">
+    <span class="eyebrow reveal">Contact</span>
+    <h1 class="display reveal d1">با ما <span class="accent">در تماس باشید</span></h1>
+    <p class="lead reveal d2">پرسش، پیشنهاد یا درخواست پیش‌ثبت‌نام دارید؟ پیام خود را بنویسید.</p>
+  </div></div>
+</section>
+<section class="section section--tight">
+  <div class="container contact-grid">
+    <div class="card reveal">
+      <h2 class="h3">فرم ارتباط</h2>
+      <form class="form" id="contact-form" data-endpoint="" novalidate>
+        <div class="row row--2">
+          <div class="field"><label for="f-name">نام و نام خانوادگی<span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+            <div class="err" id="e-name" aria-live="polite"></div></div>
+          <div class="field"><label for="f-contact">ایمیل یا شماره تماس<span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="f-contact" name="contact" type="text" inputmode="email" autocomplete="email" dir="ltr" placeholder="name@example.com" required aria-describedby="e-contact">
+            <div class="err" id="e-contact" aria-live="polite"></div></div>
+        </div>
+        <div class="field"><label for="f-subject">موضوع<span class="req" aria-hidden="true">*</span></label>
+          <select class="select" id="f-subject" name="subject" required aria-describedby="e-subject">
+            <option value="">انتخاب کنید…</option>
+            <option value="beta">پیش‌ثبت‌نام نسخه آزمایشی</option>
+            <option value="partnership">همکاری و پروژه</option>
+            <option value="feedback">ارسال بازخورد</option>
+            <option value="other">سایر موارد</option>
+          </select><div class="err" id="e-subject" aria-live="polite"></div></div>
+        <div class="field"><label for="f-message">پیام<span class="req" aria-hidden="true">*</span></label>
+          <textarea class="textarea" id="f-message" name="message" required aria-describedby="e-message"></textarea>
+          <div class="err" id="e-message" aria-live="polite"></div></div>
+        <div class="hp" aria-hidden="true"><label>وب‌سایت<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field"><label class="check" for="f-consent"><input id="f-consent" name="consent" type="checkbox" required aria-describedby="e-consent"><span>با ذخیره و استفاده از اطلاعات وارد‌شده برای پاسخ به پیامم موافقم.</span></label>
+          <div class="err" id="e-consent" aria-live="polite"></div></div>
+        <div id="form-status" class="form-status" role="status" hidden></div>
+        <button class="btn btn--primary" type="submit">ارسال پیام <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m22 2-11 11"/><path d="m22 2-7 20-4-9-9-4z"/></svg></button>
+      </form>
+    </div>
+    <aside class="stack stack--stretch reveal d1" aria-label="اطلاعات تماس">
+      <div class="card"><h2 class="h3">اطلاعات تماس</h2>
+        <dl class="info-list">
+          <div class="info-item"><span class="ico"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><dt>Email</dt><dd><span class="ph">آدرس ایمیل</span></dd></div></div>
+          <div class="info-item"><span class="ico"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><div><dt>Phone</dt><dd><span class="ph">شماره تماس</span></dd></div></div>
+          <div class="info-item"><span class="ico"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><dt>Address</dt><dd><span class="ph">آدرس شرکت</span></dd></div></div>
+        </dl>
+        <div class="map-ph">نقشه — پس از ارائه‌ی آدرس</div>
+        <div><p class="card-label mb-s">Social</p>
+          <div class="socials"><span aria-disabled="true">Instagram</span><span aria-disabled="true">Telegram</span><span aria-disabled="true">LinkedIn</span></div></div>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="stack">
+        <a class="logo" href="index.html" aria-label="EROOE — صفحه اصلی">E<span>R</span><span class="oo">OO</span>E</a>
+        <p class="muted foot-about">EROOE اپلیکیشن‌های آموزشی تعاملی و هوشمند برای دوره‌ی متوسطه‌ی اول می‌سازد؛ با تمرکز بر یادگیری عمیق، سنجش مستمر و تجربه‌ای که دانش‌آموز دوست دارد.</p>
+      </div>
+      <div>
+        <h2>صفحات</h2>
+        <ul><li><a href="index.html">خانه</a></li><li><a href="about.html">درباره ما</a></li><li><a href="services.html">خدمات</a></li><li><a href="projects.html">پروژه‌ها</a></li><li><a href="contact.html">تماس با ما</a></li></ul>
+      </div>
+      <div>
+        <h2>ارتباط</h2>
+        <ul>
+          <li><span class="ph">ایمیل — پس از ارائه</span></li>
+          <li><span class="ph">تلفن — پس از ارائه</span></li>
+          <li><a href="contact.html?subject=beta">پیش‌ثبت‌نام نسخه آزمایشی</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 EROOE — تمامی حقوق محفوظ است.</span>
+      <span class="mono">EROOE // OBSIDIAN KINETIC</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
